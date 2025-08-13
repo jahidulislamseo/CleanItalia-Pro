@@ -1,0 +1,764 @@
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servizi di Pulizia Professionali in Italia | CleanItalia Pro</title>
+    <meta name="description" content="Servizi di pulizia commerciali, lavaggio auto self-service, pulizie domestiche e sanificazione in tutta Italia. Milano, Roma, Napoli, Torino, Firenze, Bologna.">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    'italian-blue': '#1E40AF',
+                    'italian-green': '#059669',
+                    'italian-gold': '#F59E0B',
+                    'italian-red': '#DC2626'
+                },
+                fontFamily: {
+                    'inter': ['Inter', 'sans-serif']
+                }
+            }
+        }
+    };
+    </script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body class="font-inter bg-gray-50">
+    <!-- @COMPONENT: Header -->
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <div class="w-12 h-12 bg-italian-blue rounded-full flex items-center justify-center">
+                        <i class="fas fa-sparkles text-white text-xl"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold text-italian-blue">CleanItalia Pro</h1>
+                        <p class="text-sm text-gray-600">Servizi di Pulizia Professionali</p>
+                    </div>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#servizi" class="text-gray-700 hover:text-italian-blue transition-colors">Servizi</a>
+                    <a href="#citta" class="text-gray-700 hover:text-italian-blue transition-colors">Città</a>
+                    <a href="#chi-siamo" class="text-gray-700 hover:text-italian-blue transition-colors">Chi Siamo</a>
+                    <a href="#testimonianze" class="text-gray-700 hover:text-italian-blue transition-colors">Testimonianze</a>
+                    <a href="#contatti" class="bg-italian-blue text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">Contatti</a>
+                </div>
+                
+                <button class="md:hidden text-gray-700" data-implementation="Mobile menu toggle">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!-- @END_COMPONENT: Header -->
+
+    <!-- @COMPONENT: Hero Section -->
+    <section class="relative bg-gradient-to-br from-italian-blue to-blue-800 text-white py-20">
+        <!-- Professional cleaning team in modern office building -->
+        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div style="background-image: url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080'); background-size: cover; background-position: center;" class="absolute inset-0"></div>
+        
+        <div class="relative container mx-auto px-4 text-center">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6">
+                Servizi di Pulizia <span class="text-italian-gold">Professionali</span> in Italia
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90">
+                Pulizie commerciali, lavaggio auto self-service, servizi domestici e sanificazione professionale in tutta Italia
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button class="bg-italian-green text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-green-700 transition-colors" data-event="click:requestQuote">
+                    <i class="fas fa-calculator mr-2"></i>
+                    Richiedi Preventivo
+                </button>
+                <button class="bg-white text-italian-blue px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors" data-event="click:viewServices">
+                    <i class="fas fa-list mr-2"></i>
+                    Vedi Tutti i Servizi
+                </button>
+            </div>
+            
+            <div class="mt-12 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-italian-gold">15+</div>
+                    <div class="text-sm opacity-80">Anni di Esperienza</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-italian-gold">10,000+</div>
+                    <div class="text-sm opacity-80">Clienti Soddisfatti</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-italian-gold">6</div>
+                    <div class="text-sm opacity-80">Regioni Servite</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-italian-gold">24/7</div>
+                    <div class="text-sm opacity-80">Assistenza</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: Hero Section -->
+
+    <!-- @COMPONENT: Services Section -->
+    <section id="servizi" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">I Nostri Servizi Professionali</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Offriamo una gamma completa di servizi di pulizia per soddisfare ogni esigenza commerciale e domestica
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- @MAP: services.map(service => ( -->
+                <div class="bg-gray-50 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                    <div class="w-16 h-16 bg-italian-blue rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-building text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Pulizie Commerciali</h3>
+                    <p class="text-gray-600 mb-6">
+                        Servizi di pulizia professionale per uffici, negozi, centri commerciali e strutture industriali. 
+                        Cleaning services per aziende con personale qualificato e attrezzature moderne.
+                    </p>
+                    <ul class="text-sm text-gray-600 mb-6 space-y-2">
+                        <li><i class="fas fa-check text-italian-green mr-2"></i>Pulizia uffici quotidiana</li>
+                        <li><i class="fas fa-check text-italian-green mr-2"></i>Sanificazione ambienti</li>
+                        <li><i class="fas fa-check text-italian-green mr-2"></i>Pulizia vetri e superfici</li>
+                        <li><i class="fas fa-check text-italian-green mr-2"></i>Gestione rifiuti</li>
+                    </ul>
+                    <button class="w-full bg-italian-blue text-white py-3 rounded-lg hover:bg-blue-700 transition-colors" data-event="click:learnMore">
+                        Scopri di Più
+                    </button>
+                </div>
+
+                <div class="bg-gray-50 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                    <div class="w-16 h-16 bg-italian-green rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-car text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Lavaggio Auto Self-Service</h3>
+                    <p class="text-gray-600 mb-6">
+                        Stazioni di car wash self service moderne e tecnologiche. Self service car cleaning 
+                        con sistemi automatizzati per un lavaggio efficace e sostenibile.
+                    </p>
+                    <ul class="text-sm text-gray-600 mb-6 space-y-2">
+                        <li><i class="fas fa-check text-italian-green mr-2"></i>Stazioni self-service 24/7</li>
+                        <li><i class="fas fa-check text-italian-green mr-2"></i>Lavaggio eco-sostenibile</li>
+                        <li><i class="fas fa-check text-italian-green mr-2"></i>Aspirapolvere professionali</li>
+                        <li><i class="fas fa-check text-italian-green mr-2"></i>Prodotti di qualità</li>
+                    </ul>
+                    <button class="w-full bg-italian-green text-white py-3 rounded-lg hover:bg-green-700 transition-colors" data-event="click:learnMore">
+                        Trova Stazione
+                    </button>
+                </div>
+
+                <div class="bg-gray-50 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                    <div class="w-16 h-16 bg-italian-gold rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-home text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Servizi Domestici</h3>
+                    <p class="text-gray-600 mb-6">
+                        Cleaning services maid service per abitazioni private. Servizi di pulizia domestica 
+                        professionale con personale qualificato e prodotti ecologici.
+                    </p>
+                    <ul class="text-sm text-gray-600 mb-6 space-y-2">
+                        <li><i class="fas fa-check text-italian-green mr-2"></i>Pulizie settimanali/mensili</li>
+                        <li><i class="fas fa-check text-italian-green mr-2"></i>Pulizie post-trasloco</li>
+                        <li><i class="fas fa-check text-italian-green mr-2"></i>Stiratura e riordino</li>
+                        <li><i class="fas fa-check text-italian-green mr-2"></i>Prodotti eco-friendly</li>
+                    </ul>
+                    <button class="w-full bg-italian-gold text-white py-3 rounded-lg hover:bg-yellow-600 transition-colors" data-event="click:learnMore">
+                        Prenota Servizio
+                    </button>
+                </div>
+
+                <div class="bg-gray-50 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                    <div class="w-16 h-16 bg-italian-red rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-hard-hat text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Pulizie Post-Costruzione</h3>
+                    <p class="text-gray-600 mb-6">
+                        Servizi specializzati per la pulizia dopo lavori di costruzione e ristrutturazione. 
+                        Clean service professionale per cantieri e nuove costruzioni.
+                    </p>
+                    <ul class="text-sm text-gray-600 mb-6 space-y-2">
+                        <li><i class="fas fa-check text-italian-green mr-2"></i>Rimozione detriti</li>
+                        <li><i class="fas fa-check text-italian-green mr-2"></i>Pulizia profonda</li>
+                        <li><i class="fas fa-check text-italian-green mr-2"></i>Lucidatura superfici</li>
+                        <li><i class="fas fa-check text-italian-green mr-2"></i>Consegna "chiavi in mano"</li>
+                    </ul>
+                    <button class="w-full bg-italian-red text-white py-3 rounded-lg hover:bg-red-700 transition-colors" data-event="click:learnMore">
+                        Richiedi Preventivo
+                    </button>
+                </div>
+
+                <div class="bg-gray-50 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                    <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-shield-virus text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Sanificazione</h3>
+                    <p class="text-gray-600 mb-6">
+                        Servizi di sanificazione professionale per ambienti commerciali e domestici. 
+                        Cleaning services specializzati in igienizzazione e disinfezione.
+                    </p>
+                    <ul class="text-sm text-gray-600 mb-6 space-y-2">
+                        <li><i class="fas fa-check text-italian-green mr-2"></i>Sanificazione ambienti</li>
+                        <li><i class="fas fa-check text-italian-green mr-2"></i>Disinfezione superfici</li>
+                        <li><i class="fas fa-check text-italian-green mr-2"></i>Certificazioni sanitarie</li>
+                        <li><i class="fas fa-check text-italian-green mr-2"></i>Protocolli COVID-19</li>
+                    </ul>
+                    <button class="w-full bg-purple-600 text-white py-3 rounded-lg hover:bg-purple-700 transition-colors" data-event="click:learnMore">
+                        Sanifica Ora
+                    </button>
+                </div>
+
+                <div class="bg-gray-50 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                    <div class="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-handshake text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Contratti Personalizzati</h3>
+                    <p class="text-gray-600 mb-6">
+                        Soluzioni su misura per esigenze specifiche. Cleaning services services con 
+                        contratti flessibili per aziende e privati in tutta Italia.
+                    </p>
+                    <ul class="text-sm text-gray-600 mb-6 space-y-2">
+                        <li><i class="fas fa-check text-italian-green mr-2"></i>Contratti su misura</li>
+                        <li><i class="fas fa-check text-italian-green mr-2"></i>Prezzi competitivi</li>
+                        <li><i class="fas fa-check text-italian-green mr-2"></i>Servizi combinati</li>
+                        <li><i class="fas fa-check text-italian-green mr-2"></i>Supporto dedicato</li>
+                    </ul>
+                    <button class="w-full bg-teal-600 text-white py-3 rounded-lg hover:bg-teal-700 transition-colors" data-event="click:learnMore">
+                        Contattaci
+                    </button>
+                </div>
+                <!-- @END_MAP )) -->
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: Services Section -->
+
+    <!-- @COMPONENT: Locations Section -->
+    <section id="citta" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Le Nostre Città</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Presenti nelle principali città italiane con servizi di pulizia professionali per ogni esigenza
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- @MAP: cities.map(city => ( -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <!-- Milan cathedral and modern city skyline view -->
+                    <img src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300" alt="Milano skyline" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">Milano e Provincia</h3>
+                        <p class="text-gray-600 mb-4">
+                            Servizi di pulizia commerciali e domestici nella capitale economica d'Italia. 
+                            Cleaning services cleaners specializzati per il business milanese.
+                        </p>
+                        <div class="flex items-center text-sm text-gray-500 mb-4">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            Lombardia - Copertura completa provincia
+                        </div>
+                        <button class="w-full bg-italian-blue text-white py-3 rounded-lg hover:bg-blue-700 transition-colors" data-event="click:viewLocation">
+                            Servizi a Milano
+                        </button>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <!-- Rome Colosseum and historic city center -->
+                    <img src="https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300" alt="Roma skyline" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">Roma e Lazio</h3>
+                        <p class="text-gray-600 mb-4">
+                            A cleaning service professionale nella Capitale. Self service car cleaning 
+                            e pulizie commerciali in tutto il territorio laziale.
+                        </p>
+                        <div class="flex items-center text-sm text-gray-500 mb-4">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            Lazio - Servizi regionali estesi
+                        </div>
+                        <button class="w-full bg-italian-blue text-white py-3 rounded-lg hover:bg-blue-700 transition-colors" data-event="click:viewLocation">
+                            Servizi a Roma
+                        </button>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <!-- Naples bay with Mount Vesuvius in background -->
+                    <img src="https://images.unsplash.com/photo-1544644181-1484b3fdfc62?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300" alt="Napoli vista sul golfo" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">Napoli e Campania</h3>
+                        <p class="text-gray-600 mb-4">
+                            Clean service professionale nel Sud Italia. Cleaning services services 
+                            completi per aziende e privati in Campania.
+                        </p>
+                        <div class="flex items-center text-sm text-gray-500 mb-4">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            Campania - Copertura regionale
+                        </div>
+                        <button class="w-full bg-italian-blue text-white py-3 rounded-lg hover:bg-blue-700 transition-colors" data-event="click:viewLocation">
+                            Servizi a Napoli
+                        </button>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <!-- Turin with Alps mountains in background -->
+                    <img src="https://pixabay.com/get/ge086ff11ec08bce5652f61705f99caaba4e4b795a1e90e47e27a270f36dc6dbf545a9d98f509df2812924ea80322d98edbb44c440b4443b79dd04f98d815bfdf_1280.jpg" alt="Torino con le Alpi" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">Torino e Piemonte</h3>
+                        <p class="text-gray-600 mb-4">
+                            Cleaning services cleaning services nel cuore del Piemonte. 
+                            Car clean self service e pulizie industriali di alta qualità.
+                        </p>
+                        <div class="flex items-center text-sm text-gray-500 mb-4">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            Piemonte - Servizi completi
+                        </div>
+                        <button class="w-full bg-italian-blue text-white py-3 rounded-lg hover:bg-blue-700 transition-colors" data-event="click:viewLocation">
+                            Servizi a Torino
+                        </button>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <!-- Florence Duomo and Renaissance architecture -->
+                    <img src="https://pixabay.com/get/ge30e66003f58bb7b0f63abdaf15bac0a0d8c67b2ed6cab2f56658c9ac2107ec191e0501cec183172a476a6f1bb4ff4cc73807f78a4d6be78f2a2c451b7dcc274_1280.jpg" alt="Firenze centro storico" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">Firenze e Toscana</h3>
+                        <p class="text-gray-600 mb-4">
+                            Car cleaning self service e pulizie per il settore turistico toscano. 
+                            Cleaning services maid service per strutture ricettive.
+                        </p>
+                        <div class="flex items-center text-sm text-gray-500 mb-4">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            Toscana - Focus turistico
+                        </div>
+                        <button class="w-full bg-italian-blue text-white py-3 rounded-lg hover:bg-blue-700 transition-colors" data-event="click:viewLocation">
+                            Servizi a Firenze
+                        </button>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <!-- Bologna medieval towers and historic center -->
+                    <img src="https://pixabay.com/get/g5ad50afb27ed9a98429b65c30d2020c1e127feb805b9c1f3072772d2d45badeaaa4221f09d95fc84748cefa12ada32d8fd8c6c2ca9b8a72a1235900acced5e82_1280.jpg" alt="Bologna centro storico" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">Bologna e Emilia-Romagna</h3>
+                        <p class="text-gray-600 mb-4">
+                            Self service car cleaning e cleaning services per l'industria emiliana. 
+                            Soluzioni innovative per il territorio più dinamico d'Italia.
+                        </p>
+                        <div class="flex items-center text-sm text-gray-500 mb-4">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            Emilia-Romagna - Hub industriale
+                        </div>
+                        <button class="w-full bg-italian-blue text-white py-3 rounded-lg hover:bg-blue-700 transition-colors" data-event="click:viewLocation">
+                            Servizi a Bologna
+                        </button>
+                    </div>
+                </div>
+                <!-- @END_MAP )) -->
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: Locations Section -->
+
+    <!-- @COMPONENT: Why Choose Us Section -->
+    <section id="chi-siamo" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold text-gray-900 mb-6">Perché Scegliere CleanItalia Pro</h2>
+                    <p class="text-xl text-gray-600 mb-8">
+                        Siamo leader nei servizi di pulizia professionali in Italia, con oltre 15 anni di esperienza 
+                        e migliaia di clienti soddisfatti in tutto il paese.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-italian-green rounded-full flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-certificate text-white"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-900 mb-2">Certificazioni Professionali</h3>
+                                <p class="text-gray-600">Personale certificato e formato secondo gli standard europei più elevati per ogni tipo di cleaning service.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-italian-blue rounded-full flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-clock text-white"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-900 mb-2">Disponibilità 24/7</h3>
+                                <p class="text-gray-600">Servizi disponibili 24 ore su 24, 7 giorni su 7, per emergenze e cleaning services urgenti.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-italian-gold rounded-full flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-leaf text-white"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-900 mb-2">Prodotti Eco-Sostenibili</h3>
+                                <p class="text-gray-600">Utilizziamo solo prodotti ecologici e sostenibili per proteggere l'ambiente e la salute.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-italian-red rounded-full flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-shield-alt text-white"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-900 mb-2">Garanzia di Qualità</h3>
+                                <p class="text-gray-600">Offriamo garanzia totale su tutti i cleaning services services con possibilità di ritrattamento gratuito.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <!-- Professional cleaning team with modern equipment and uniforms -->
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Team professionale CleanItalia Pro" class="rounded-xl shadow-2xl w-full">
+                    
+                    <div class="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-xl p-6 max-w-xs">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-12 h-12 bg-italian-green rounded-full flex items-center justify-center">
+                                <i class="fas fa-star text-white"></i>
+                            </div>
+                            <div>
+                                <div class="text-2xl font-bold text-gray-900">4.9/5</div>
+                                <div class="text-sm text-gray-600">Valutazione Media</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: Why Choose Us Section -->
+
+    <!-- @COMPONENT: Testimonials Section -->
+    <section id="testimonianze" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Cosa Dicono i Nostri Clienti</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    La soddisfazione dei nostri clienti è la nostra priorità. Leggi le testimonianze di chi ha scelto i nostri cleaning services.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- @MAP: testimonials.map(testimonial => ( -->
+                <div class="bg-white rounded-xl p-8 shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <!-- @for: i in 1..5 -->
+                        <i class="fas fa-star text-italian-gold"></i>
+                        <!-- @endfor -->
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">
+                        "Utilizziamo CleanItalia Pro per le pulizie commerciali del nostro ufficio a Milano da oltre 3 anni. 
+                        Servizio impeccabile, personale professionale e prezzi competitivi. Cleaning services di altissima qualità!"
+                    </p>
+                    <div class="flex items-center">
+                        <!-- Professional business manager headshot -->
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150" alt="Marco Rossi" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <div class="font-semibold text-gray-900" data-bind="testimonial.name">Marco Rossi</div>
+                            <div class="text-sm text-gray-500" data-bind="testimonial.company">CEO, TechItalia SpA</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl p-8 shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <!-- @for: i in 1..5 -->
+                        <i class="fas fa-star text-italian-gold"></i>
+                        <!-- @endfor -->
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">
+                        "Il car clean self service di CleanItalia Pro è fantastico! Stazioni moderne, prodotti di qualità 
+                        e sempre pulite. Self service car cleaning economico e efficiente in tutta Roma."
+                    </p>
+                    <div class="flex items-center">
+                        <!-- Happy female customer portrait -->
+                        <img src="https://pixabay.com/get/g8d3198baf622634ddef536d5137da023732b785dbe9b0ed2482b795b2f501b554465879a6ce1816492e467c33be30d41dc8062873ed078df7f1de9a88e4ed977_1280.jpg" alt="Giulia Bianchi" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <div class="font-semibold text-gray-900" data-bind="testimonial.name">Giulia Bianchi</div>
+                            <div class="text-sm text-gray-500" data-bind="testimonial.company">Cliente Privato, Roma</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl p-8 shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <!-- @for: i in 1..5 -->
+                        <i class="fas fa-star text-italian-gold"></i>
+                        <!-- @endfor -->
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">
+                        "Cleaning services cleaning services eccezionali per il nostro hotel a Firenze. 
+                        Sanificazione impeccabile, personale discreto e sempre puntuale. Altamente raccomandati!"
+                    </p>
+                    <div class="flex items-center">
+                        <!-- Hotel manager professional portrait -->
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150" alt="Andrea Conti" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <div class="font-semibold text-gray-900" data-bind="testimonial.name">Andrea Conti</div>
+                            <div class="text-sm text-gray-500" data-bind="testimonial.company">Direttore, Hotel Toscana</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- @END_MAP )) -->
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: Testimonials Section -->
+
+    <!-- @COMPONENT: Contact Section -->
+    <section id="contatti" class="py-20 bg-italian-blue text-white">
+        <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-4xl font-bold mb-6">Richiedi un Preventivo Gratuito</h2>
+                    <p class="text-xl mb-8 opacity-90">
+                        Contattaci per ricevere un preventivo personalizzato per i nostri cleaning services. 
+                        Risposta garantita entro 24 ore.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
+                                <i class="fas fa-phone text-white"></i>
+                            </div>
+                            <div>
+                                <div class="font-semibold">Telefono</div>
+                                <div class="opacity-90">+39 800 123 456</div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
+                                <i class="fas fa-envelope text-white"></i>
+                            </div>
+                            <div>
+                                <div class="font-semibold">Email</div>
+                                <div class="opacity-90">info@cleanitaliapro.it</div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
+                                <i class="fas fa-clock text-white"></i>
+                            </div>
+                            <div>
+                                <div class="font-semibold">Orari</div>
+                                <div class="opacity-90">Lun-Ven: 8:00-18:00 | Sab: 9:00-13:00</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl p-8">
+                    <form class="space-y-6" data-implementation="Contact form should validate and submit to backend">
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Nome</label>
+                                <input type="text" data-bind="form.firstName" placeholder="Il tuo nome" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-italian-blue focus:border-transparent" required>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Cognome</label>
+                                <input type="text" data-bind="form.lastName" placeholder="Il tuo cognome" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-italian-blue focus:border-transparent" required>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                            <input type="email" data-bind="form.email" placeholder="la.tua.email@esempio.it" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-italian-blue focus:border-transparent" required>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Telefono</label>
+                            <input type="tel" data-bind="form.phone" placeholder="+39 123 456 7890" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-italian-blue focus:border-transparent">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Tipo di Servizio</label>
+                            <select data-bind="form.serviceType" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-italian-blue focus:border-transparent" required>
+                                <option value="">Seleziona un servizio</option>
+                                <option value="commercial">Pulizie Commerciali</option>
+                                <option value="car-wash">Car Clean Self Service</option>
+                                <option value="domestic">Servizi Domestici</option>
+                                <option value="construction">Pulizie Post-Costruzione</option>
+                                <option value="sanitization">Sanificazione</option>
+                                <option value="custom">Contratto Personalizzato</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Città</label>
+                            <select data-bind="form.city" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-italian-blue focus:border-transparent" required>
+                                <option value="">Seleziona la tua città</option>
+                                <option value="milano">Milano e Provincia</option>
+                                <option value="roma">Roma e Lazio</option>
+                                <option value="napoli">Napoli e Campania</option>
+                                <option value="torino">Torino e Piemonte</option>
+                                <option value="firenze">Firenze e Toscana</option>
+                                <option value="bologna">Bologna e Emilia-Romagna</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Messaggio</label>
+                            <textarea data-bind="form.message" rows="4" placeholder="Descrivi le tue esigenze di cleaning services..." class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-italian-blue focus:border-transparent"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full bg-italian-green text-white py-4 rounded-lg font-semibold hover:bg-green-700 transition-colors" data-event="click:submitQuote">
+                            <i class="fas fa-paper-plane mr-2"></i>
+                            Richiedi Preventivo Gratuito
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: Contact Section -->
+
+    <!-- @COMPONENT: Footer -->
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-3 mb-6">
+                        <div class="w-12 h-12 bg-italian-blue rounded-full flex items-center justify-center">
+                            <i class="fas fa-sparkles text-white text-xl"></i>
+                        </div>
+                        <div>
+                            <div class="text-xl font-bold">CleanItalia Pro</div>
+                            <div class="text-sm text-gray-400">Servizi di Pulizia</div>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 mb-6">
+                        Leader nei cleaning services professionali in Italia. 
+                        Qualità, affidabilità e sostenibilità dal 2008.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-6">I Nostri Servizi</h3>
+                    <ul class="space-y-3 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Pulizie Commerciali</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Car Clean Self Service</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Servizi Domestici</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Pulizie Post-Costruzione</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Sanificazione</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Contratti Personalizzati</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-6">Le Nostre Città</h3>
+                    <ul class="space-y-3 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Milano e Provincia</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Roma e Lazio</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Napoli e Campania</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Torino e Piemonte</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Firenze e Toscana</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Bologna e Emilia-Romagna</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-6">Contatti</h3>
+                    <div class="space-y-3 text-gray-400">
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-phone w-4"></i>
+                            <span>+39 800 123 456</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-envelope w-4"></i>
+                            <span>info@cleanitaliapro.it</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-map-marker-alt w-4"></i>
+                            <span>Via Roma 123, Milano, IT</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-clock w-4"></i>
+                            <span>Lun-Ven: 8:00-18:00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 CleanItalia Pro. Tutti i diritti riservati. | Privacy Policy | Termini di Servizio</p>
+                <p class="mt-2 text-sm">
+                    Cleaning services professionali • Car clean self service • Servizi domestici • 
+                    Sanificazione • Pulizie commerciali in Italia
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- @END_COMPONENT: Footer -->
+
+    <script>
+        (function() {
+            // TODO: Implement smooth scrolling for navigation links
+            // TODO: Add mobile menu toggle functionality
+            // TODO: Implement contact form validation and submission
+            // TODO: Add quote request system with pricing calculator
+            // TODO: Implement service filtering and search functionality
+            // TODO: Add location-based service availability checker
+            // TODO: Implement testimonial carousel/slider
+            // TODO: Add service booking calendar integration
+            // TODO: Implement SEO optimization with dynamic meta tags
+            // TODO: Add analytics tracking for user interactions
+            
+            // Smooth scrolling for anchor links
+            document.addEventListener('DOMContentLoaded', function() {
+                const links = document.querySelectorAll('a[href^="#"]');
+                links.forEach(link => {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        const targetId = this.getAttribute('href').substring(1);
+                        const targetElement = document.getElementById(targetId);
+                        if (targetElement) {
+                            targetElement.scrollIntoView({
+                                behavior: 'smooth'
+                            });
+                        }
+                    });
+                });
+            });
+        })();
+    </script>
+</body>
+</html>
